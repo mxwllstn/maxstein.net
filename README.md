@@ -3,7 +3,7 @@
 ## Development Setup
 
 ```bash
-# install dependencies (first time only)
+# install dependencies
 $ npm install
 
 # serve with hot reload at localhost:8080
