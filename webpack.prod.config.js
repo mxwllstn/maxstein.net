@@ -38,9 +38,7 @@ const config = {
       filename: '../index.html'
     }),
     new CopyPlugin({
-      patterns: [
-        { from: 'assets', to: '../assets' }
-      ]
+      patterns: [{ from: 'assets', to: '../assets' }]
     }),
     new Dotenv(),
     new MiniCssExtractPlugin()
