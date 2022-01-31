@@ -1,4 +1,5 @@
 # maxstein.net
+https://maxstein.net/
 
 ## Development Setup (Vue + Vite)
 
