@@ -1,20 +1,18 @@
 # maxstein.net
 
-## Development Setup
+## Development Setup (Vue + Vite)
 
 ```bash
 # install dependencies
 $ yarn install
 
-# serve with hot reload at localhost:8080
-$ yarn start
-```
+# serve with hot reload at localhost:3000
+$ yarn dev
 
-## Test Production Version
-```bash
-# build for production (creates static index.html and bundle.js files in the dist folder)
+# build for production
 $ yarn build
 
-# test production build with server environment at localhost:8081
-$ yarn serve
+# preview production build
+$ yarn preview --host
+
 ```
