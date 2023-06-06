@@ -10,28 +10,23 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
+<script lang="ts" setup>
+import { computed } from 'vue'
 
-export default defineComponent({
-  props: {
-    title: {
-      type: String,
-      default: null
-    },
-    website: {
-      type: String,
-      default: null
-    },
-    image: {
-      type: String,
-      default: null
-    }
+const props = defineProps({
+  title: {
+    type: String,
+    default: null
   },
-  computed: {
-    imagePath(): string {
-      return String(new URL(`../assets/img/${this.image}`, import.meta.url))
-    }
+  website: {
+    type: String,
+    default: null
+  },
+  image: {
+    type: String,
+    default: null
   }
 })
+
+const imagePath = computed(() => String(new URL(`../assets/img/${props.image}`, import.meta.url)))
 </script>

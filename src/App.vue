@@ -53,24 +53,16 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
+<script lang="ts" setup>
 import TheProject from './components/TheProject.vue'
+import { ref } from 'vue'
 
-export default defineComponent({
-  components: { TheProject },
-  data() {
-    return {
-      readMore: false
-    }
-  },
-  methods: {
-    scrollToTop() {
-      document.body.scrollTo({ top: 0, behavior: 'smooth' })
-      document.documentElement.scrollTo({ top: 0, behavior: 'smooth' })
-    }
-  }
-})
+const readMore = ref(false)
+
+const scrollToTop = () => {
+  document.body.scrollTo({ top: 0, behavior: 'smooth' })
+  document.documentElement.scrollTo({ top: 0, behavior: 'smooth' })
+}
 </script>
 
 <style lang="scss">
