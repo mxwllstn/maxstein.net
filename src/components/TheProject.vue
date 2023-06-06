@@ -6,14 +6,14 @@
         <a class="link black underline truncate" :href="website" target="_blank">{{ website }}</a>
       </h2>
     </div>
-    <a class="link" :href="website" target="_blank"
-      ><img class="shadow-4 w-100" :src="imagePath" :alt="title"
-    /></a>
+    <a class="link" :href="website" target="_blank"><img class="shadow-4 w-100" :src="imagePath" :alt="title" /></a>
   </div>
 </template>
 
 <script lang="ts">
-export default {
+import { defineComponent } from 'vue'
+
+export default defineComponent({
   props: {
     title: {
       type: String,
@@ -29,9 +29,9 @@ export default {
     }
   },
   computed: {
-    imagePath() {
-      return new URL(`../assets/img/${this.image}`, import.meta.url)
+    imagePath(): string {
+      return String(new URL(`../assets/img/${this.image}`, import.meta.url))
     }
   }
-}
+})
 </script>

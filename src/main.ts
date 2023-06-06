@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import VueGtag from "vue-gtag-next";
+import VueGtag from 'vue-gtag-next'
 
 const app = createApp(App)
 
