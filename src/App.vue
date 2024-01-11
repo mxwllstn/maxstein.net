@@ -28,7 +28,7 @@
 
       <section>
         <h1>Projects</h1>
-        <TheProject title="Jen Reimer & Max Stein" image="reimerstein.jpg" website="https://reimerstein.com" />
+        <TheProject title="Jen Reimer & Max Stein" image="reimerstein2.jpg" website="https://reimerstein.com" />
         <TheProject title="Sounding the City" image="soundingthecity.jpg" website="https://soundingthecity.com" />
         <TheProject title="Montréal Sound Map" image="montrealsoundmap.jpg" website="http://montrealsoundmap.com" />
         <TheProject title="Outremont Wasteland" image="outremontwasteland.jpg"
