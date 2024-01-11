@@ -6,23 +6,17 @@
           <strong>Max Stein</strong> is a sound & media artist based in Los Angeles. His work explores urban space and
           infrastructure through site-specific performances, installation art, field recording, and cartography.
         </p>
-        <p>
+        <p v-if="showReadMore">
           <a id="readmore-bio" class="link black underline-hover" :class="[readMore ? 'toggle-more' : 'toggle-less']"
             href="#more-bio" title="Read more bio" @click.prevent="readMore = !readMore">+</a>
         </p>
         <div id="more-bio" :class="{ 'visually-hidden': !readMore }">
-          <p>
-            He designed and runs the Montréal Sound Map (2008-present), and has collaborated on other sound mapping
-            projects
-            including TSIKAYA, San Francisco Bay Area Sound Map, Oljud Sthlm, Portland Sound Map, Belfast Sound Map, My
-            Favorite
-            Brussels Sound, and the Soundprint Archive.
-          </p>
-          <p>
-            As a frequent collaborator with sound artist and musician, Jen Reimer, he has created in-situ performances and
-            installations in resonant spaces around the world. Most recently, they launched an online exhibition of urban
-            soundscapes called Sounding the City.
-          </p>
+          <p>He designed and runs the Montréal Sound Map (2008-present), and has collaborated on other sound mapping
+            projectsincluding TSIKAYA, San Francisco Bay Area Sound Map, Oljud Sthlm, Portland Sound Map, Belfast Sound
+            Map, My Favorite Brussels Sound, and the Soundprint Archive.</p>
+          <p>As a frequent collaborator with sound artist and musician, Jen Reimer, he has created in-situ performances
+            and installations in resonant spaces around the world. Most recently, they launched an online exhibition of
+            urban soundscapes called Sounding the City.</p>
         </div>
       </section>
 
@@ -57,6 +51,7 @@
 import TheProject from './components/TheProject.vue'
 import { ref } from 'vue'
 
+const showReadMore = ref(false)
 const readMore = ref(false)
 
 const scrollToTop = () => {
