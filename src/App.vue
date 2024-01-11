@@ -33,7 +33,7 @@
         <TheProject title="Montréal Sound Map" image="montrealsoundmap.jpg" website="http://montrealsoundmap.com" />
         <TheProject title="Outremont Wasteland" image="outremontwasteland.jpg"
           website="https://reimerstein.com/outremont-wasteland/" />
-        <TheProject title="Music for Lamps" image="musicforlamps.jpg" website="http://musicforlamps.com" />
+        <TheProject title="Music for Lamps" image="musicforlamps.jpg" website="https://musicforlamps.com" />
       </section>
 
       <section>
