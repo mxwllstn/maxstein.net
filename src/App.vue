@@ -30,7 +30,8 @@
         <h1>Projects</h1>
         <TheProject title="Jen Reimer & Max Stein" image="reimerstein2.jpg" website="https://reimerstein.com" />
         <TheProject title="Sounding the City" image="soundingthecity.jpg" website="https://soundingthecity.com" />
-        <TheProject title="Montréal Sound Map" image="montrealsoundmap.jpg" website="http://montrealsoundmap.com" />
+        <TheProject title="Sumida-ku Sound Map" image="sumidakusoundmap.jpg" website="https://sumida.reimerstein.com" />
+        <TheProject title="Montréal Sound Map" image="montrealsoundmap.jpg" website="https://montrealsoundmap.com" />
         <TheProject
           title="Outremont Wasteland" image="outremontwasteland.jpg"
           website="https://reimerstein.com/outremont-wasteland/"
@@ -74,5 +75,5 @@ function scrollToTop() {
 </script>
 
 <style lang="scss">
-@import './assets/scss/main.scss';
+@import './assets/scss/main';
 </style>

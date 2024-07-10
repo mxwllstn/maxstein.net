@@ -1,7 +1,7 @@
 @import 'tachyons';
 
 @font-face {
-  font-family: 'AuthenticSans';
+  font-family: AuthenticSans;
   src: url('assets/fonts/AUTHENTIC-Sans.woff2') format('woff2'), url('assets/fonts/AUTHENTIC-Sans.woff') format('woff'),
     url('assets/fonts/AUTHENTIC-Sans.otf') format('opentype');
 }
@@ -22,7 +22,7 @@ body {
   h4,
   h5,
   h6 {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 1rem;
     font-size: 1rem;
   }
