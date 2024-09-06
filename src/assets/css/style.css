@@ -1,18 +1,20 @@
-@import 'tachyons';
+@import url('tachyons');
 
 @font-face {
   font-family: AuthenticSans;
-  src: url('assets/fonts/AUTHENTIC-Sans.woff2') format('woff2'), url('assets/fonts/AUTHENTIC-Sans.woff') format('woff'),
-    url('assets/fonts/AUTHENTIC-Sans.otf') format('opentype');
+  src: url('../fonts/AUTHENTIC-Sans.woff2') format('woff2'), url('../fonts/AUTHENTIC-Sans.woff') format('woff'),
+    url('../fonts/AUTHENTIC-Sans.otf') format('opentype');
 }
 
-$near-white: #f4f4f4;
-$near-black: #111;
+:root {
+  --near-white: #f4f4f4;
+  --near-black: #111;
+}
 
 html,
 body {
-  background: $near-white;
-  color: $near-black;
+  background: var(--near-white);
+  color: var(--near-black);
   font-family: AuthenticSans, sans-serif;
 
   p,

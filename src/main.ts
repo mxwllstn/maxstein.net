@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import VueGtag from 'vue-gtag-next'
 import App from './App.vue'
+import './assets/css/style.css'
 
 const app = createApp(App)
 

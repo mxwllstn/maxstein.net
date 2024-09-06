@@ -73,7 +73,3 @@ function scrollToTop() {
   document.documentElement.scrollTo({ top: 0, behavior: 'smooth' })
 }
 </script>
-
-<style lang="scss">
-@import './assets/scss/main';
-</style>
